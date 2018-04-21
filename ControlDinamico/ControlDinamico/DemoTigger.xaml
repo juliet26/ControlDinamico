@@ -4,11 +4,27 @@
              x:Class="ControlDinamico.DemoTigger">
     <ContentPage.Content>
         <StackLayout>
-            <TableView>
-                <TableSection>
-                    <EntryCell></EntryCell>
+            <TableView Intent="Form"
+                       HasUnevenRows="True">
+                <TableSection Title="Ejercicio">
+                    <EntryCell x:Name="Titulo"
+                               Label="Titulo"
+                               Placeholder="Ingresar título">
+                    </EntryCell>
+                    <EntryCell x:Name="Autor"
+                               Label="Autor"
+                               Placeholder="Ingresar autor">
+                    </EntryCell>
+                    <EntryCell x:Name="Area"
+                               Label="Area"
+                               Placeholder="Ingresar área">
+                    </EntryCell>
                 </TableSection>
             </TableView>
+
+            <Button x:Name="btnEnviar"
+                    Text="Enviar"></Button>
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

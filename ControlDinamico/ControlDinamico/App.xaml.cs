@@ -12,8 +12,9 @@ namespace ControlDinamico
 		public App ()
 		{
 			InitializeComponent();
+            
 
-			MainPage = new ControlDinamico.MainPage();
+			MainPage = new ControlDinamico.DemoTigger();
 		}
 
 		protected override void OnStart ()
