@@ -4,8 +4,11 @@
              xmlns:local="clr-namespace:ControlDinamico"
              x:Class="ControlDinamico.MainPage">
 
-	<Label Text="Welcome to Xamarin.Forms!" 
-           VerticalOptions="Center" 
-           HorizontalOptions="Center" />
+    <StackLayout x:Name="Panel"
+        HorizontalOptions="Center"
+        VerticalOptions="Center">
+        <Button x:Name="Prueba"
+                Text="Player"></Button>
+    </StackLayout>
 
 </ContentPage>

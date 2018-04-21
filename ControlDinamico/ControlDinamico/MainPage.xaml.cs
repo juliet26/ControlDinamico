@@ -11,7 +11,16 @@ namespace ControlDinamico
 	{
 		public MainPage()
 		{
-			InitializeComponent();
+            InitializeComponent();
+            Prueba.Clicked += Prueba_Clicked;
 		}
-	}
+
+        private void Prueba_Clicked(object sender, EventArgs e)
+        {
+            Panel.Children.Add(new Button()
+            {
+                Text = $"Boton{Panel.Children.Count+1}"
+            });
+        }
+    }
 }
