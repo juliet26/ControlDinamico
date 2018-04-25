@@ -7,18 +7,18 @@
             <TableView Intent="Form"
                        HasUnevenRows="True">
                 <TableSection Title="Ejercicio">
-                    <EntryCell x:Name="Titulo"
+                    <Entry x:Name="Titulo"
                                Label="Titulo"
                                Placeholder="Ingresar título">
-                    </EntryCell>
-                    <EntryCell x:Name="Autor"
+                    </Entry>
+                    <Entry x:Name="Autor"
                                Label="Autor"
                                Placeholder="Ingresar autor">
-                    </EntryCell>
-                    <EntryCell x:Name="Area"
+                    </Entry>
+                    <Entry x:Name="Area"
                                Label="Area"
                                Placeholder="Ingresar área">
-                    </EntryCell>
+                    </Entry>
                 </TableSection>
             </TableView>
 
